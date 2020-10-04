@@ -15,7 +15,21 @@ export default class App extends Component {
         -> visibleExercise => To store the component to display current page
     */
     this.state = {
-      tagList: ["HTML", "CSS", "PYTHON"],
+      tagList: [
+        "HTML",
+        "CSS",
+        "Python",
+        "Javascript",
+        "Android",
+        "JNI",
+        "C++",
+        "Machine learning",
+        "Image processing",
+        "OpenCV",
+        "React",
+        "Django",
+        "Django Rest Framework",
+      ],
       currentExercise: "buttonOne",
       visibleExercise: <ExerciseOne />,
     };
