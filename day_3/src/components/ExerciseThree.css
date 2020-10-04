@@ -1,0 +1,25 @@
+.ex3_outer_div {
+  text-align: center;
+  background-color: #f9f7f7;
+  padding: 35px;
+}
+
+.ex3_inner_div {
+  background-color: #c2e6f4;
+  border-radius: 20px;
+  padding: 55px 10px;
+}
+
+.input_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.ex3_button_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
