@@ -1,5 +1,6 @@
 .tags {
   display: flex;
+  flex-wrap: wrap;
   width: auto;
   margin-top: 10px;
   margin-bottom: 10px;
