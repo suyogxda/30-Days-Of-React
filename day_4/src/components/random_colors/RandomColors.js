@@ -1,16 +1,22 @@
 import React from "react";
 import "./RandomColors.css";
+
+/*
+    function src: "https://awik.io/determine-color-bright-dark-using-javascript/"
+    This function is used to determine if a given color is light or dark
+    The purpose of it is to add adaptive text in the color bar.I
+    For example, if the color bar is white, then the text won't be visible.
+*/
+
 const isDark = (color) => {
   // Variables for red, green, blue values
-  var r, g, b, hsp;
-
+  let r, g, b, hsp;
   // Check the format of the color, HEX or RGB?
   if (color.match(/^rgb/)) {
     // If RGB --> store the red, green, blue values in separate variables
     color = color.match(
       /^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/
     );
-
     r = color[1];
     g = color[2];
     b = color[3];
@@ -34,6 +40,7 @@ const isDark = (color) => {
   }
 };
 
+// This function is used to generate random hex value
 const generateRandomColor = () => {
   const hexChars = "0123456789abcdef";
   let randomColor = "#";
@@ -43,6 +50,8 @@ const generateRandomColor = () => {
   }
   return randomColor;
 };
+
+// This function generates a color bar with text using JSX
 const generateBar = () => {
   let hexColor = generateRandomColor();
   let textColor = "white";
@@ -62,6 +71,10 @@ const generateBar = () => {
   return barJsx;
 };
 
+/*
+    Main functional Component which generates n numbers of color bars, 
+    and wraps them in a responsive div
+*/
 const RandomColors = (props) => {
   let colorBars = [];
   for (let i = 0; i < parseInt(props.numbersOfBar); ++i) {
