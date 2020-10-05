@@ -1,0 +1,22 @@
+.logo_image {
+  height: 160px;
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.exercise_1 {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #f0f1f7;
+}
+
+.image_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}

@@ -1,0 +1,12 @@
+.color_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.color_bar {
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 25px;
+  margin: 1px;
+}
