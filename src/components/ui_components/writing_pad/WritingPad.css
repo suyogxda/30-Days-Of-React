@@ -1,0 +1,17 @@
+.writing_pad_outer_div {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.writing_pad_inner_div {
+  background-color: gray;
+  max-width: 800px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
