@@ -1,0 +1,16 @@
+.number_grid_outer_div {
+  padding: 50px;
+  text-align: center;
+}
+.number_grid_text_div {
+}
+.number_grid_inner_div {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+  justify-content: center;
+}

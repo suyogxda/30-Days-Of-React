@@ -1,0 +1,10 @@
+.chart_inner_div {
+  padding: 20px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+  justify-content: center;
+}

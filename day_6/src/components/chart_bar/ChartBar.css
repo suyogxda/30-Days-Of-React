@@ -1,0 +1,44 @@
+.single_bar_div {
+  margin: 4px 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  max-width: 900px;
+  justify-content: space-between;
+}
+
+.country_div {
+  min-width: 110px;
+  display: flex;
+  flex-basis: 15%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.bar_div {
+  margin: 0 4px;
+  flex-basis: 70%;
+  height: 20px;
+  /* width: inherit; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.population_div {
+  min-width: 110px;
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 15%;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.active_bar_div {
+  background-color: #ffa500;
+  border-radius: 2px;
+}
+
+.passive_bar_div {
+  background-color: white;
+}
