@@ -6,7 +6,7 @@
 }
 
 .writing_pad_inner_div {
-  background-color: gray;
+  background-color: black;
   max-width: 800px;
   text-align: justify;
   display: flex;
@@ -14,4 +14,22 @@
   flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
+}
+
+.note_content {
+  color: #0ff;
+}
+
+.note_content a {
+  text-decoration: none;
+  color: #fb0;
+}
+
+.note_topic {
+  text-align: center;
+  color: #fb0;
+}
+
+.note_sub_topic {
+  color: #fb0;
 }
