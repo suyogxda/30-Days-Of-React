@@ -4,7 +4,7 @@ So, me and few of my friends decided to learn react from <a  href="https://githu
 
 Anyway, there are some topics, for example: day 3, day 4 and day 5, where the exercises are to build same components using different methods like using functional component, class component or JSX, etc. So, in case of these types of exercises, I've skipped down to using just a single method. But still, you'll find it on all days coz I've linked them all to single work.
 
-Also, if you are good at using react, and by any chance, get to stroll this repo, I am a complete noob xD. I don't know much about the standard react coding and template guide. So, you can create an issue...which will help me learn from my mistakes. Anyway, Seeya (^^\_^^)
+Also, if you are good at using react, and by any chance, get to stroll this repo, I am a complete noob xD. I don't know much about the standard react coding and template guide. So, you can create an issue...which will help me learn from my mistakes. Anyway, Seeya (^\_^)
 
 P.S: Some code still needs to be commented and formatted properly. So, bear with it for now.
 
