@@ -1,0 +1,12 @@
+.hover_button {
+  display: flex;
+  color: #fb0;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+.hover_button:hover {
+  box-shadow: inset 0px 0px 0px 2px #fb0;
+  border-radius: 4px;
+}

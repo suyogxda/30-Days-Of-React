@@ -19,6 +19,7 @@ const generateButtons = (props) => {
     let buttonName = "Exercise " + String(i + 1);
     totalButtons.push(
       <Button
+        key={i}
         buttonId={buttonId}
         onButtonClicked={props.onButtonClicked}
         buttonName={buttonName}

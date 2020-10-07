@@ -1,0 +1,7 @@
+.day_choice_outer_div {
+  padding: 10px;
+  background-color: black;
+  box-shadow: inset 0px 0px 0px 2px #fb0;
+  display: flex;
+  flex-wrap: wrap;
+}
