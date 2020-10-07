@@ -30,8 +30,10 @@ class DayOne extends Component {
       react coding and template guide. So, you can create an issue...which will
       help me learn from my mistakes. Anyway, Seeya (^_^)
       <br /> <br />
-      P.S: Some code still needs to be commented and formatted properly. So,
-      bear with it for now.
+      <a href="#">
+        P.S: Most of my codes are responsive. And also some code still needs to
+        be commented and formatted properly. So, bear with it for now.
+      </a>
     </span>
   );
   render() {

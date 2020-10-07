@@ -6,7 +6,7 @@ Anyway, there are some topics, for example: day 3, day 4 and day 5, where the ex
 
 Also, if you are good at using react, and by any chance, get to stroll this repo, I am a complete noob xD. I don't know much about the standard react coding and template guide. So, you can create an issue...which will help me learn from my mistakes. Anyway, Seeya (^\_^)
 
-P.S: Some code still needs to be commented and formatted properly. So, bear with it for now.
+P.S: Most of my codes are responsive. And also some code still needs to be commented and formatted properly. So, bear with it for now.
 
 ## This is the end of my message. Below are the instructions to run this repo on your local machine I guess
 
