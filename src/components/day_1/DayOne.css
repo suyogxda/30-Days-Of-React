@@ -1,4 +1,5 @@
 .day_one_index {
   display: flex;
   flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
 }
