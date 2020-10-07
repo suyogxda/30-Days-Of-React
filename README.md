@@ -1,3 +1,15 @@
+# 30 Days of React
+
+So, me and few of my friends decided to learn react from <a  href="https://github.com/Asabeneh/30-Days-Of-React">this repo.</a> And it all began. So, I stared reading the contents written by <a  href="https://github.com/Asabeneh">Asabeneh</a>, and did his exercises almost regularly. This website contains all the exercises I've done. Press the top right button on Navbar to navigate between them. Things I skipped were writing down questions like: "What is JSX?", "What is React?", "How do you do this?", "What is props?", "Write a function to print this array", "Go study, you f\*cking idiot" blah...blah....blah. I mean who tf writes them down like a high school student racing with his teacher's speech so that he doesn't miss a word xD
+
+Anyway, there are some topics, for example: day 3, day 4 and day 5, where the exercises are to build same components using different methods like using functional component, class component or JSX, etc. So, in case of these types of exercises, I've skipped down to using just a single method. But still, you'll find it on all days coz I've linked them all to single work.
+
+Also, if you are good at using react, and by any chance, get to stroll this repo, I am a complete noob xD. I don't know much about the standard react coding and template guide. So, you can create an issue...which will help me learn from my mistakes. Anyway, Seeya (^^\_^^)
+
+P.S: Some code still needs to be commented and formatted properly. So, bear with it for now.
+
+## This is the end of my message. Below are the instructions to run this repo on your local machine I guess
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
