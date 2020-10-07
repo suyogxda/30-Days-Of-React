@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import DayFour from "../day_4/DayFour";
 
 class DayFive extends Component {
   render() {
-    return <div className="day_one_index">Alakazam</div>;
+    return <DayFour />;
   }
 }
 export default DayFive;
