@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import ExerciseOne from "./components/day_4/exercise_one/ExerciseOne";
-import ExerciseTwo from "./components/day_4/exercise_two/ExerciseTwo";
-import ExerciseThree from "./components/day_4/exercise_three/ExerciseThree";
-import RandomColors from "./components/day_4/random_colors/RandomColors";
 import NavBar from "./components/ui_components/navbar/NavBar";
-import HoverButton from "./components/ui_components/hover_button/HoverButton";
 import DayChoices from "./components/ui_components/day_choices/DayChoices";
 
 import DayOne from "./components/day_1/DayOne";
