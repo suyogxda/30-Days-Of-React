@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import ExerciseOne from "./components/day_4/exercise_one/ExerciseOne";
-import ExerciseTwo from "./components/day_4/exercise_two/ExerciseTwo";
-import ExerciseThree from "./components/day_4/exercise_three/ExerciseThree";
-import RandomColors from "./components/day_4/random_colors/RandomColors";
 import NavBar from "./components/ui_components/navbar/NavBar";
-import HoverButton from "./components/ui_components/hover_button/HoverButton";
 import DayChoices from "./components/ui_components/day_choices/DayChoices";
 
 import DayOne from "./components/day_1/DayOne";
@@ -14,6 +9,7 @@ import DayThree from "./components/day_3/DayThree";
 import DayFour from "./components/day_4/DayFour";
 import DayFive from "./components/day_5/DayFive";
 import DaySix from "./components/day_6/DaySix";
+import DaySeven from "./components/day_7/DaySeven";
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +17,15 @@ class App extends Component {
     this.state = {
       navButtonClicked: false,
       displayedChoices: [],
-      listOfButtons: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
+      listOfButtons: [
+        "Day 1",
+        "Day 2",
+        "Day 3",
+        "Day 4",
+        "Day 5",
+        "Day 6",
+        "Day 7",
+      ],
       listOfDays: [
         <DayOne />,
         <DayTwo />,
@@ -29,6 +33,7 @@ class App extends Component {
         <DayFour />,
         <DayFive />,
         <DaySix />,
+        <DaySeven />,
       ],
       currentIndex: 0,
     };

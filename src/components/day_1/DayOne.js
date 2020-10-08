@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import WritingPad from "../ui_components/writing_pad/WritingPad";
 
+/* eslint-disable */
 class DayOne extends Component {
   noteTopic = "30 Days of React";
   noteSubTopic = "#Day 1";
@@ -30,7 +31,7 @@ class DayOne extends Component {
       react coding and template guide. So, you can create an issue...which will
       help me learn from my mistakes. Anyway, Seeya (^_^)
       <br /> <br />
-      <a href="#">
+      <a>
         P.S: Most of my codes are responsive. And also some code still needs to
         be commented and formatted properly. So, bear with it for now.
       </a>
