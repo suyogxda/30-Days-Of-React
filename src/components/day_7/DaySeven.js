@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import WritingPad from "../ui_components/writing_pad/WritingPad";
 
+/* eslint-disable */
 class DaySeven extends Component {
   noteTopic = "30 Days of React";
   noteSubTopic = "#Day 7";
