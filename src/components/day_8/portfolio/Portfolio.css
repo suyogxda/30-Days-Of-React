@@ -1,0 +1,17 @@
+.portfolio_outer_div {
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.portfolio_main_div {
+  padding: 20px;
+  padding-left: 50px;
+  padding-left: 50px;
+}
+.tag_button_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
