@@ -1,0 +1,10 @@
+.footer_main_div {
+  background-color: #2acfcf;
+  /* position: absolute; */
+  justify-content: center;
+  padding: 10px 0px;
+  bottom: 0;
+  display: flex;
+  text-align: center;
+  /* width: 100vw; */
+}

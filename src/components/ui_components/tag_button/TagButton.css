@@ -1,0 +1,17 @@
+/* .tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
+.tag_button {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: #2acfcf;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+}

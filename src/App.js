@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+
 import NavBar from "./components/ui_components/navbar/NavBar";
 import DayChoices from "./components/ui_components/day_choices/DayChoices";
 
@@ -10,6 +11,7 @@ import DayFour from "./components/day_4/DayFour";
 import DayFive from "./components/day_5/DayFive";
 import DaySix from "./components/day_6/DaySix";
 import DaySeven from "./components/day_7/DaySeven";
+import DayEight from "./components/day_8/DayEight";
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +27,7 @@ class App extends Component {
         "Day 5",
         "Day 6",
         "Day 7",
+        "Day 8",
       ],
       listOfDays: [
         <DayOne />,
@@ -34,6 +37,14 @@ class App extends Component {
         <DayFive />,
         <DaySix />,
         <DaySeven />,
+        <DayEight />,
+        // <Banner
+        //   darkTheme={true}
+        //   title="Welcome to 30 days of React"
+        //   content="Alakazam is a great Pokemon, xD"
+        //   headerOne="This is header one"
+        //   headerTwo="This is header two"
+        // />,
       ],
       currentIndex: 0,
     };
@@ -71,8 +82,6 @@ class App extends Component {
         />
         {this.state.displayedChoices}
         {this.state.listOfDays[this.state.currentIndex]}
-
-        {/* <DayChoices listOfButtons={["Day 1", "Day 2"]} /> */}
       </div>
     );
   }
