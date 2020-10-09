@@ -1,0 +1,28 @@
+.banner_main_div {
+  background-color: #2acfcf;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner_h1 {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+
+.banner_h2 {
+  margin: 2px 0px;
+}
+
+.banner_h3 {
+  margin: 2px 0px;
+}
+
+.banner_p {
+  margin: 2px;
+}
