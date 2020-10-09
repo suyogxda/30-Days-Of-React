@@ -24,7 +24,7 @@ const Portfolio = (props) => {
         <br />
         <h2 style={{ fontWeight: "normal" }}>SUYOG ADHIKARI</h2>
         <p style={{ fontWeight: "lighter" }}>AI/ML Developer, Nepal</p>
-        {/* This division containsthe skill tags. I've made a different component for this */}
+        {/* This division containsthe Tag buttons. Two buttons are placeholder, and one is used to change theme */}
         <div className="tag_button_div">
           <TagButton tagButtonName="Placeholder 1" />
           <TagButton tagButtonName="Placeholder 2" />
